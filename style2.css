@@ -1,0 +1,54 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #fae3e3;
+    margin-top: 2em;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    section {
+        padding: 1em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 0.5em 0;
+    }
+}
+
